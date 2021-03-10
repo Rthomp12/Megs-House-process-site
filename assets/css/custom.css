@@ -37,3 +37,6 @@ added to the button in the index html file as well.*/
 
 /* AUDIENCE & GOALS*/
 
+.image-shadow{
+  box-shadow: 1px 1px 15px grey;
+}
