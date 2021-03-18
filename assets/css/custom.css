@@ -5,15 +5,16 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/pic01.jpg);
+#banner {
+  background-color: rgb(166, 157, 172);
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  /*text-shadow: 1px 1px 15px #333;*/
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
-} */
+
+} 
 
 
 
@@ -26,7 +27,7 @@ added to the button in the index html file as well.*/
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(188, 46, 26, .8);
+  background-color: rgba(188, 46, 26, .5);
 }
 
 
@@ -39,4 +40,14 @@ added to the button in the index html file as well.*/
 
 .image-shadow{
   box-shadow: 1px 1px 15px grey;
+}
+
+.post .content{
+  text-align:left;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: kazimir, sans-serif;
+font-weight: 400;
+font-style: normal;
 }
